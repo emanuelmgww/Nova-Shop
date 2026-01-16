@@ -42,3 +42,11 @@ span, strong {
 small {
     color: var(--text-color-muted);
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
