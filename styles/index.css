@@ -1,2 +1,44 @@
 @import "global.css";
 @import "utilities.css";
+
+.top-bar {
+    padding: clamp(0.8rem, 0.1rem + 1vw, 1.2rem);
+    background-color: var(--text-color-primary);
+    border-end-end-radius: 1.8rem;
+    border-end-start-radius: 1.8rem;
+}
+
+nav {
+    padding: clamp(0.8rem, 1rem + 0.8vw, 2.5rem);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar p {
+    font-size: clamp(0.6rem, 0.8rem + 0.4vw, 1rem);
+    color: var(--surface-color);
+}
+
+.logo a {
+    font-size: clamp(1rem, 1.2rem + 2vw, 2rem);
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+.actions ul {
+    justify-content: space-between;
+    gap: clamp(1rem, 1.2rem + 1vw, 2rem)
+}
+
+.header-actions li {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.actions li img {
+    width: clamp(1rem, 1.5rem + 1vw, 2rem);
+    height: clamp(1rem, 1.5rem + 1vw, 2rem);
+    cursor: pointer;
+}
