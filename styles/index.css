@@ -21,10 +21,12 @@ nav {
 
 .logo a {
     font-size: clamp(1rem, 1.2rem + 2vw, 2rem);
+    font-weight: 400;
 }
 
 .logo span {
     color: var(--primary-color);
+    font-weight: 600;
 }
 
 .actions ul {
